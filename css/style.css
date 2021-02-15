@@ -1,0 +1,50 @@
+html {
+    background-color: rgb(243, 199, 208);
+}
+header {
+    text-align: center;
+    background-color: lightpink;
+}
+body {
+    margin-left:2in;
+    margin-right:2in;
+}
+p {
+    text-decoration: solid;
+}
+main p:nth-child(1) {
+    line-height: 25px;
+    font-style: italic;
+  }
+  main p:nth-child(2) {
+    line-height: 25px;
+    font-style: italic;
+    background-color: lightyellow;
+  }
+
+  main ul li:nth-child(1) {
+    background:navajowhite;
+    color:peru
+  }
+  main ul li:nth-child(2) {
+    background: rgb(219, 87, 197);
+    color:rgb(83, 42, 0);
+  }
+  main ul li:nth-child(3) {
+    background: rgb(255, 113, 184);
+    color:rgb(173, 122, 70)
+  }
+  main ul li:nth-child(4) {
+    background: rgb(146, 135, 141);
+    color:rgb(73, 43, 22);
+  }
+  main ul li:nth-child(5) {
+    background: rgb(100, 78, 95);
+    color:rgb(36, 29, 25);
+  }
+  img {
+      width: 590px;
+      height: 500px;
+      float: none;
+  }
+  
