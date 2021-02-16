@@ -97,4 +97,19 @@ if (arts.toLocaleLowerCase()=='yes'){
      //console.log('Is there anyone in this world hates arts! Think about it :(');
      alert (visitorName+'!! Is there anyone in this world hates arts? Think about it :(');
  }
- 
+ let i=0;
+ let GuessNum =prompt('Guess a number?');
+
+ while (GuessNum!=='7' && i<3) {
+    // console.log('Guess a number?'); 
+    if (GuessNum>'7') {
+        alert ('too high');
+    } else if (GuessNum<'7') {
+        alert ('too low');
+    }  
+   GuessNum =prompt('Guess a number?');
+i++;
+}
+if (GuessNum=='7' || i===3) {
+    alert('The right answer is 7!');
+}  
