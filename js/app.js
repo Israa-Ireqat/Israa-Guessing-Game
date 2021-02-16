@@ -110,6 +110,50 @@ if (arts.toLocaleLowerCase()=='yes'){
    GuessNum =prompt('Guess a number?');
 i++;
 }
-if (GuessNum=='7' || i===3) {
-    alert('The right answer is 7!');
+if (GuessNum=='7') {
+    alert('Great, it is the number!');
+}  else { if(i===3){
+    alert('Out of trials. The right answer is 7!');
+}
+
+}
+
+let y=0;
+let arrMe=['Saif','Salah','Khair','Ezz'];
+ let GuessBro =prompt('Guess a name of one of my brothers . Note: start the name with a capital letter.');
+//console.log(arrMe);
+ while (GuessBro!==arrMe[0] &&GuessBro!==arrMe[1] &&GuessBro!==arrMe[2] &&GuessBro!==arrMe[3] && y<5) {
+    // console.log('Guess a name of one of my brothers'); 
+   alert ('No one of my brothers is called : '+ GuessBro+ ' Try again.'); 
+   GuessBro =prompt('Guess a name of one of my brothers. Note: start the name with a capital letter.');
+ y++;
+}
+if (GuessBro==arrMe[0] ||GuessBro==arrMe[1] ||GuessBro==arrMe[2] ||GuessBro==arrMe[3] ) {
+    alert('OMG! this is absolutely right. My brothers names are : '+ arrMe);
+}else { if (y===5) {
+        alert('Out of trials. My brothers names are : '+ arrMe);
+ }
 }  
+let score=0;
+if (myAge.toLocaleLowerCase()=='no'||myAge.toLocaleLowerCase()=='n') {
+    score++;
+} 
+if (place.toLocaleLowerCase()=='yes'||place.toLocaleLowerCase()=='y') {
+    score++;
+}
+if (social.toLocaleLowerCase()=='yes'||social.toLocaleLowerCase()=='y') {
+   score++; 
+}
+if (swim.toLocaleLowerCase()=='no'||swim.toLocaleLowerCase()=='n') {
+    score++;
+}
+if (arts.toLocaleLowerCase()=='yes'||arts.toLocaleLowerCase()=='y') {
+    score++;
+}
+if (GuessNum=='7') {
+  score++;  
+}
+if (GuessBro==arrMe[0] ||GuessBro==arrMe[1] ||GuessBro==arrMe[2] ||GuessBro==arrMe[3] ) {
+  score++;  
+}
+alert('You have answered '+score+' correct answeres out of 7.');
