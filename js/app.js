@@ -98,19 +98,19 @@ if (arts.toLocaleLowerCase()=='yes'){
      alert (visitorName+'!! Is there anyone in this world hates arts? Think about it :(');
  }
  let i=0;
- let GuessNum =prompt('Guess a number from 0 to 9?');
+ let GuessNum =Number(prompt('Guess a number from 0 to 9?'));
 
- while (GuessNum!=='7' && i<3) {
+ while (GuessNum!==7 && i<3) {
     // console.log('Guess a number from 0 to 9?'); 
-    if (GuessNum>'7') {
+    if (GuessNum>7) {
         alert ('too high');
-    } else if (GuessNum<'7') {
+    } else if (GuessNum<7) {
         alert ('too low');
     }  
-   GuessNum =prompt('Guess a number from 0 to 9?');
+   GuessNum =Number(prompt('Guess a number from 0 to 9?'));
 i++;
 }
-if (GuessNum=='7') {
+if (GuessNum==7) {
   // console.log('Great, it is the number!');
     alert('Great, it is the number!');
 }  else { if(i===3){
