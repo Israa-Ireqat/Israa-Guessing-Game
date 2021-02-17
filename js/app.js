@@ -169,3 +169,4 @@ if (GuessBro==arrMe[0] ||GuessBro==arrMe[1] ||GuessBro==arrMe[2] ||GuessBro==arr
 }
 //console.log('You have answered '+score+' correct answeres out of 7.');
 alert('You have answered '+score+' correct answeres out of 7.');
+alert('Thank you '+visitorName+' Hope you enjoed the game.');
