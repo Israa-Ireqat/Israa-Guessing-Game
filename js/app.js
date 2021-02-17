@@ -98,21 +98,23 @@ if (arts.toLocaleLowerCase()=='yes'){
      alert (visitorName+'!! Is there anyone in this world hates arts? Think about it :(');
  }
  let i=0;
- let GuessNum =prompt('Guess a number?');
+ let GuessNum =prompt('Guess a number from 0 to 9?');
 
  while (GuessNum!=='7' && i<3) {
-    // console.log('Guess a number?'); 
+    // console.log('Guess a number from 0 to 9?'); 
     if (GuessNum>'7') {
         alert ('too high');
     } else if (GuessNum<'7') {
         alert ('too low');
     }  
-   GuessNum =prompt('Guess a number?');
+   GuessNum =prompt('Guess a number from 0 to 9?');
 i++;
 }
 if (GuessNum=='7') {
+  // console.log('Great, it is the number!');
     alert('Great, it is the number!');
 }  else { if(i===3){
+    //console.log('Out of trials. The right answer is 7!');
     alert('Out of trials. The right answer is 7!');
 }
 
@@ -129,31 +131,41 @@ let arrMe=['Saif','Salah','Khair','Ezz'];
  y++;
 }
 if (GuessBro==arrMe[0] ||GuessBro==arrMe[1] ||GuessBro==arrMe[2] ||GuessBro==arrMe[3] ) {
+    //console.log('OMG! this is absolutely right. My brothers names are : '+ arrMe);
     alert('OMG! this is absolutely right. My brothers names are : '+ arrMe);
 }else { if (y===5) {
+    //console.log('Out of trials. My brothers names are : '+ arrMe);
         alert('Out of trials. My brothers names are : '+ arrMe);
  }
 }  
 let score=0;
 if (myAge.toLocaleLowerCase()=='no'||myAge.toLocaleLowerCase()=='n') {
     score++;
+    //console.log(score);
 } 
 if (place.toLocaleLowerCase()=='yes'||place.toLocaleLowerCase()=='y') {
     score++;
+    //console.log(score);
 }
 if (social.toLocaleLowerCase()=='yes'||social.toLocaleLowerCase()=='y') {
    score++; 
+   //console.log(score);
 }
 if (swim.toLocaleLowerCase()=='no'||swim.toLocaleLowerCase()=='n') {
     score++;
+    //console.log(score);
 }
 if (arts.toLocaleLowerCase()=='yes'||arts.toLocaleLowerCase()=='y') {
     score++;
+    //console.log(score);
 }
 if (GuessNum=='7') {
   score++;  
+  //console.log(score);
 }
 if (GuessBro==arrMe[0] ||GuessBro==arrMe[1] ||GuessBro==arrMe[2] ||GuessBro==arrMe[3] ) {
-  score++;  
+  score++; 
+  //console.log(score); 
 }
+//console.log('You have answered '+score+' correct answeres out of 7.');
 alert('You have answered '+score+' correct answeres out of 7.');
