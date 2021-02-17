@@ -8,6 +8,7 @@ header {
 body {
     margin-left:2in;
     margin-right:2in;
+    text-align: center;
 }
 p {
     text-decoration: solid;
@@ -46,5 +47,9 @@ main p:nth-child(1) {
       width: 590px;
       height: 500px;
       float: none;
+  }
+ main ol {
+background-color: rgb(201, 231, 201);
+background: linear-gradient();
   }
   
