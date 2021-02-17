@@ -1,7 +1,14 @@
 'use strict';
 let visitorName =prompt('Hello, What is your name?');
 //console.log(visitorName);
-alert ('You are welcome '+visitorName+ '. Let us start the game! Your are allowed to answer by Yes/No or Y/N only.');
+//alert ('You are welcome '+visitorName+ '. Let us start the game! Your are allowed to answer by Yes/No or Y/N only.');
+const userName= function (user) {
+console.log('You are welcome '+visitorName+ '. Let us start the game! Your are allowed to answer by Yes/No or Y/N only.' );
+return ('You are welcome '+visitorName+ '. Let us start the game! Your are allowed to answer by Yes/No or Y/N only.');
+
+
+}
+alert('You are welcome '+visitorName+ '. Let us start the game! Your are allowed to answer by Yes/No or Y/N only.');
 let myAge =prompt(visitorName+' Do you think that I am old?');
 //console.log('myAge');
 while (myAge.toLocaleLowerCase() !=='yes' && myAge.toLocaleLowerCase() !=='y'&& myAge.toLocaleLowerCase()!=='no'&& myAge.toLocaleLowerCase()!=='n') {
