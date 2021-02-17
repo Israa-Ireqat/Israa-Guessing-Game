@@ -13,7 +13,7 @@ alert('You are welcome '+visitorName+ '. Let us start the game! Your are allowed
 let myAge = prompt(visitorName+' Do you think that I am old?');
 //console.log('myAge');
 while (myAge.toLocaleLowerCase() !=='yes' && myAge.toLocaleLowerCase() !=='y'&& myAge.toLocaleLowerCase() !=='no'&& myAge.toLocaleLowerCase() !=='n') {
-    myAge =prompt()(visitorName+' Do you think that I am old?');
+    myAge =prompt(visitorName+' Do you think that I am old?');
    // console.log('myAge');
 }
 if (myAge.toLocaleLowerCase()=='yes'||myAge.toLocaleLowerCase()=='y') {
@@ -25,25 +25,26 @@ else if (myAge.toLocaleLowerCase()=='no'||myAge.toLocaleLowerCase()=='n') {
 
 //Second question:
 let place =prompt('So, do think that I like nature more than urban places?');
-while (place.toLocaleLowerCase() !=='yes' && place.toLocaleLowerCase() !=='y'&& place.toLocaleLowerCase()!=='no'&& place.toLocaleLowerCase()!=='n') {
+while (place.toLocaleLowerCase() !=='yes' && place.toLocaleLowerCase() !=='y'&& place.toLocaleLowerCase() !=='no'&& place.toLocaleLowerCase() !=='n') {
     place =prompt('So, do think that I like nature more than urban places?')
     // console.log('place');      
 }
 if (place.toLocaleLowerCase()=='yes'||place.toLocaleLowerCase()=='y') {
     alert ('Right! I really love nature and animals.');
-}  else if (place.toLocaleLowerCase()=='no'||place.toLocaleLowerCase()=='y') {
+} 
+ else if (place.toLocaleLowerCase()=='no'||place.toLocaleLowerCase()=='n') {
     alert ('Why??! I dont brefer urban cities, I like the calming power of Nature.');
 }
 
  //Third question:
  let social =prompt('Am I a social person?');
-while (social.toLocaleLowerCase() !=='yes' && social.toLocaleLowerCase() !=='y'&& social.toLocaleLowerCase()!=='no'&& social.toLocaleLowerCase()!=='n') {
+while (social.toLocaleLowerCase()!=='yes' && social.toLocaleLowerCase()!=='y'&& social.toLocaleLowerCase()!=='no'&& social.toLocaleLowerCase()!=='n') {
     social =prompt('Am I a social person?')
     // console.log('social');      
 } 
 if (social.toLocaleLowerCase()=='yes'||social.toLocaleLowerCase()=='y') {
     alert ('Actually yessss I am .');
-} else if (social.toLocaleLowerCase()=='no'||social.toLocaleLowerCase()=='y') {
+} else if (social.toLocaleLowerCase()=='no'||social.toLocaleLowerCase()=='n') {
     alert ('Wrong answer, I like being with people.');
 } 
 
