@@ -69,14 +69,14 @@ if (social.toLocaleLowerCase()=='yes'){
      //console.log('Unfortunutly I cant.'); 
      alert ('Unfortunutly I cant.');
   } else if (swim.toLocaleLowerCase()=='no'){
-      //console.log('Tahts right, but I will learn how to swim someday.');
-      alert ('Tahts right, but I will learn how to swim someday.');
+      //console.log('Thats right, but I will learn how to swim someday.');
+      alert ('Thats right, but I will learn how to swim someday.');
   } else if (swim.toLocaleLowerCase()=='y') {
      //console.log('Unfortunutly I cant.'); 
      alert ('Unfortunutly I cant.');  
   } else if (swim.toLowerCase()=='n') {
-      //console.log('Tahts right, but I will learn how to swim someday.');
-      alert ('Tahts right, but I will learn how to swim someday.');
+      //console.log('Thats right, but I will learn how to swim someday.');
+      alert ('Thats right, but I will learn how to swim someday.');
   }
 
   let arts =prompt('Do I like arts?');
