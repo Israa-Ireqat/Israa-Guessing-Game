@@ -52,5 +52,6 @@ main p:nth-child(1) {
  main ol {
 background-color: rgb(201, 231, 201);
 background: linear-gradient();
+color: rgb(6, 6, 15);
   }
   
